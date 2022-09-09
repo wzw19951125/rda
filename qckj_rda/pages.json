@@ -1,0 +1,63 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{ // 首页
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, { // 蓝牙设备
+			"path": "pages/blue/blue",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, { // 用户信息
+			"path": "pages/pay/customer",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, { // 7.0地址配置
+			"path": "pages/server/server",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/readMeter/readMeter",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/readMeter/usage",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/input/input",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},{
+			"path":"pages/detail/detail",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"backgroundColor": "#F4F4F4",
+		"navigationBarBackgroundColor": "#F4F4F4"
+	}
+}
